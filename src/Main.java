@@ -60,12 +60,12 @@ public class Main {
 		System.out.println("************************");
 		System.out.println("");
 		
-		System.out.println(c1.getName()+" got "+c1.getNumberOfVotes()+" number of votes from "+ t.getConstinuency());
-		System.out.println(c5.getName()+" got "+c5.getNumberOfVotes()+" number of votes from "+ t.getConstinuency());
+		System.out.println(c1.getName()+" got "+c1.getNumberOfVotes()+" votes from "+ t.getConstinuency());
+		System.out.println(c5.getName()+" got "+c5.getNumberOfVotes()+" votes from "+ t.getConstinuency());
 		System.out.println("************************");
-		System.out.println(c3.getName()+" got "+c3.getNumberOfVotes()+" number of votes from "+ m.getConstinuency());
-		System.out.println(c2.getName()+" got "+c2.getNumberOfVotes()+" number of votes from "+ m.getConstinuency());
-		System.out.println(c4.getName()+" got "+c4.getNumberOfVotes()+" number of votes from "+ m.getConstinuency());
+		System.out.println(c3.getName()+" got "+c3.getNumberOfVotes()+" votes from "+ m.getConstinuency());
+		System.out.println(c2.getName()+" got "+c2.getNumberOfVotes()+" votes from "+ m.getConstinuency());
+		System.out.println(c4.getName()+" got "+c4.getNumberOfVotes()+" votes from "+ m.getConstinuency());
 		System.out.println("************************");
 		System.out.println("");
 		
