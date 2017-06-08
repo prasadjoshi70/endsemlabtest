@@ -4,13 +4,13 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Evm t=new Evm(1,"Thivim"); //Constinuency 1
-		Candidate c1=new Candidate(t,"Prasad");
-		Candidate c5=new Candidate(t,"Vinay");
+		BU c1=new BU(t,"Prasad");
+		BU c5=new BU(t,"Vinay");
 		
 		Evm m=new Evm(2,"Mapusa"); //Constinuency 2
-		Candidate c2=new Candidate(m,"babush");
-		Candidate c3=new Candidate(m,"Shraddha");
-		Candidate c4=new Candidate(m,"Vinod");
+		BU c2=new BU(m,"babush");
+		BU c3=new BU(m,"Shraddha");
+		BU c4=new BU(m,"Vinod");
 		
 		//voter 1 has voted
 		Voter v=new Voter(101,c1);

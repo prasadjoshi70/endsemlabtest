@@ -1,10 +1,10 @@
-public class Candidate
+public class BU
 {
 
     private String name;    
     private int votes;
     
-	public Candidate(Evm evm,String name)
+	public BU(Evm evm,String name)
     {        
     	this.name = name;
         votes = 0;
